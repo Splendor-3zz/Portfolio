@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, GraduationCap, Code2, Briefcase, Languages as LanguagesIcon } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, GraduationCap, Code2, Briefcase, Languages as LanguagesIcon } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
