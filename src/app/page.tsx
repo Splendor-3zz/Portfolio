@@ -7,8 +7,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import my_image_for_portfolio from '../../public/my_image_for_portfolio.jpg';
+import type { LucideIcon } from "lucide-react";
 
-const Section = ({ id, title, icon: Icon, children }: { id: string; title: string; icon: any; children: React.ReactNode }) => (
+const Section = ({ id, title, icon: Icon, children }: { id: string; title: string; icon: LucideIcon; children: React.ReactNode }) => (
   <section id={id} className="max-w-5xl mx-auto px-4 md:px-6 lg:px-0 py-10">
     <motion.h2
       initial={{ opacity: 0, y: 12 }}
