@@ -69,11 +69,6 @@ export default function Portfolio() {
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-5xl mx-auto px-4 md:px-6 lg:px-0 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <Image
-              src={my_image_for_portfolio}
-              alt="Ezzaldeen Al‑Shaibani"
-              className="w-32 h-32 rounded-full object-cover border-4 border-slate-200 shadow-sm"
-            />
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-center md:text-left">Ezzaldeen Al‑Shaibani</h1>
               <p className="text-base text-slate-600 text-center md:text-left">Software Engineer • Istanbul, Türkiye</p>
